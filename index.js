@@ -32,11 +32,11 @@ class UserCard extends Component {
 }
 
 const usersArray = [
-    {user: 'Bob', email: 'bob@email.com'},
-    {user: 'Linda', email: 'linda@email.com'},
-    {user: 'Angela', email: 'angela@email.com'},
-    {user: 'Alaska', email: 'alaska@email.com'},
-    {user: 'Eureka', email: 'eureka@email.com'},
+    {user: 'Bob', email: 'bob@email.com', imageUrl: 'http://www.bob.com'},
+    {user: 'Linda', email: 'linda@email.com', imageUrl: 'http://www.linda.com'},
+    {user: 'Angela', email: 'angela@email.com', imageUrl: 'http://www.angela.com'},
+    {user: 'Alaska', email: 'alaska@email.com', imageUrl: 'http://www.alaska.com'},
+    {user: 'Eureka', email: 'eureka@email.com', imageUrl: 'http://www.eureka.com'},
 ]
 
 const users = usersArray.map(x => {
